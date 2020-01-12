@@ -1,2 +1,36 @@
 [
+  { 
+   "id": 734,
+   "props": {
+      "minecraft:use_duration": 32,
+      "minecraft:max_stack_size": 1,
+  
+      "minecraft:food": {
+        "nutrition": 6,
+        "saturation_modifier": "normal",
+        "using_converts_to": "bowl",
+        "on_use_action": "suspicious_stew_effect"
+      }
+    }
+  },
+ { 
+   "id": 477,
+   "props":{
+      "minecraft:use_duration": 32,
+
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation_modifier": "low",
+        "is_meat":  false
+      },
+      "minecraft:seed": {
+        "crop_result": "sweet_berry_bush",
+        "plant_at": [
+          "grass",
+          "dirt",
+          "podzol"
+        ]
+      }
+    }
+  }
 ]
